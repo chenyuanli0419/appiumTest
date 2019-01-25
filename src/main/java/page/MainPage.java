@@ -18,8 +18,10 @@ public class MainPage extends BasePage{
     }
 
     public SearchPage gotoSearch(){
-        find(By.id("home_saerch")).click();
+        find(By.id("home_search")).click();
         return new SearchPage();
     }
+
+    public
 
 }
